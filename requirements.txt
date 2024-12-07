@@ -1,0 +1,7 @@
+# 필수 패키지
+sphinx
+sphinx-rtd-theme
+
+# 선택적으로 추가할 확장
+sphinx-autodoc
+sphinx.ext.napoleon
