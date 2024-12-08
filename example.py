@@ -28,4 +28,4 @@ face.set_image_path("./example_img/person.jpg")
 face.count_faces()
 
 #modexif
-modexif("./example_img/test.jpg", "output_path.jpg", "S24", "2023:12:05 12:57:54")
+modexif("./example_img/test.jpg", "output_path.jpg", "", "S24", "2023:12:05 12:57:54")
