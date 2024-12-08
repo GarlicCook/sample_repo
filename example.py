@@ -12,11 +12,12 @@ filter.display_images()
 filter = ColorFilter(image_path)
 user_color = (1, 255, 125)
 
+filter.make_gray_image()
+filter.show()
+
 filter.custom_colorfilter(user_color)
 filter.show()
 
-filter.make_gray_image()
-filter.show()
 
 #color_extracter
 plot_palette((extract_color_palette(image_path, 3)))
